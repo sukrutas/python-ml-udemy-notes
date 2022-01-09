@@ -65,11 +65,18 @@ print(cities)
 
 # to back up
 cities2 = cities.copy()
-cities2.append("İzmir")
+cities2.append("Izmir")
 print(cities2)
 print(cities)
 
+# to extend
+cities.extend(cities2)
+print(cities)
 
+# to sort
+cities.sort()
+cities.reverse()
+print(cities)
 
 
 
